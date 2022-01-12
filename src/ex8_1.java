@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 import static java.lang.Math.min;
 
-public class ex8_1 {//1을 만드는 최소 방법
+public class ex8_1 { //1을 만드는 최소 방법
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
