@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class ex4_1 { //좌표를 입력하고 움직일 수 있는 경우의 수 구하기
+public class ex4_1 {  //좌표를 입력하고 움직일 수 있는 경우의 수 구하기
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
