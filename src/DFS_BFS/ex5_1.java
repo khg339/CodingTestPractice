@@ -1,3 +1,5 @@
+package DFS_BFS;
+
 import java.util.Scanner;
 
 public class ex5_1 {
