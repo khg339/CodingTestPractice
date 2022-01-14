@@ -1,8 +1,8 @@
-package practice;
+package Implementation;
 
 import java.util.Scanner;
 
-public class p4_1 {
+public class implementation1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
