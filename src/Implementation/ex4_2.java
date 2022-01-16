@@ -24,11 +24,11 @@ public class ex4_2 {
         for(int i=0; i<M; i++){ //입력 및 초기화
             for(int j=0; j<N; j++){
                 map[i][j] = sc.nextInt();
-                visit[i][j] = sc.nextInt();
+                visit[i][j] = 0;
             }
         }
 
-        map[x][y] = 1; //현재 서 있는 곳은 가본 곳 처리
+        visit[x][y] = 1; //현재 서 있는 곳은 가본 곳 처리
 
         int[][] move = {{-1,0}, {0,1}, {1,0}, {0,-1}}; //북동남서 순으로 방향 저장
         int result = 1; //방문한 육지 수 저장, 처음엔 무조건 육지
@@ -45,6 +45,7 @@ public class ex4_2 {
                 y = ny;
                 visit[x][y] = 1; //가본 곳 처리
                 result++;
+                turn_time = 0;
                 continue; //다시 반복
             }
             else{ //예상위치가 바다이거나 가본 곳이라면
@@ -59,9 +60,9 @@ public class ex4_2 {
                 if(map[nx][ny] == 0){ //예상위치가 육지라면(가본 곳 포함) 뒤로 이동
                     x = nx;
                     y = ny;
-                    turn_time = 0;   //다시 초기화
                 }
                 else break; //예상위치로 더이상 이동할 수 없다면 종료
+                turn_time = 0;   //다시 초기화
             }
         }
 
