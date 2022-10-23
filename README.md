@@ -32,10 +32,4 @@
 |CHAPTER9 최단 경로|[미래 도시](https://github.com/khg339/CodingTestPractice/blob/master/src/ShortestPath/ex9_1.java) / [전보](https://github.com/khg339/CodingTestPractice/blob/master/src/ShortestPath/ex9_2.java)|
 |CHAPTER10 그래프|[팀 결성](https://github.com/khg339/CodingTestPractice/blob/master/src/Graph/ex10_1.java) / [도시 분할 계획](https://github.com/khg339/CodingTestPractice/blob/master/src/Graph/ex10_2.java) / [커리큘럼]()|
  
-<br/><br/>
-## 📖스터디 진행
-&nbsp;&nbsp;&nbsp;✔️ 1주차 &nbsp;&nbsp;&nbsp;**2022.01.10** &nbsp;&nbsp;&nbsp;👉&nbsp;&nbsp; 알고리즘을 이해하는 데 많은 시간 소요  
-&nbsp;&nbsp;&nbsp;✔️ 2주차 &nbsp;&nbsp;&nbsp;**2022.01.17** &nbsp;&nbsp;&nbsp;👉&nbsp;&nbsp; 문제에 알고리즘을 적용시키는 과정이 미숙함  
-&nbsp;&nbsp;&nbsp;✔️ 3주차 &nbsp;&nbsp;&nbsp;**2022.01.23** &nbsp;&nbsp;👉&nbsp;&nbsp; 다익스트라 알고리즘(우선순위 큐)를 이해하고 직접 구현할 수 있도록 함  
-&nbsp;&nbsp;&nbsp;💬 4주차 &nbsp;&nbsp;&nbsp;**2022.02.07** 
- 
+
